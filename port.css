@@ -1,0 +1,412 @@
+body{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: open-sans;
+}
+.header{
+	background: #f7f7f7  url(banner.png) top center no-repeat;
+background-size: cover;
+/* background-position: fixed; */
+	background-attachment: fixed;
+	width: 100%;
+   height: 800px;
+}
+.header-content{
+	color: black;
+	padding: 250px 400px 0px 400px;
+	/* font-weight: 900; */
+	
+}
+.header-content h3{
+	font-size: 26px;
+}
+.header-content h1{
+	font-size: 30px;
+}
+.aboutme{
+	position: relative;
+	color: black;
+	width: 100%;
+	height:300px;
+	padding-left: 15px;
+}
+
+.aboutme #img1{
+	position: absolute;
+	top: 0px;
+	left:0px;
+	z-index: -1;
+}
+.aboutme h2{
+	z-index: 99 !important;
+	font-weight: 700;
+	line-height: 2;
+	padding-top: 5px;
+ 
+}
+.aboutme #img2{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+.aboutme p{
+	z-index: 2;
+	opacity: 0.7;
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.personal{
+	margin-top: 50px;
+}
+.container-fluid{
+	    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+.personal-content{
+	position: relative;
+	font-size: 1.2em;
+	height: 210px;
+}
+.personal h3{
+	       margin-bottom: 26px;
+}
+.personal h2{
+	 margin-bottom: 26px;
+}
+.personal-content img{
+     z-index: -1;
+     position: absolute;
+     top:0;
+     right:0;
+}
+.contact-content{
+	position: relative;
+	color: rgba(0,0,0,0.7);
+	font-size: 1.2em;
+	height: 210px;
+}
+.contact-content p{
+	    margin: 0 0 10px;
+}
+#extrapad{
+	    margin: 0px 16px 0px 6px!important;
+
+}
+.contact-content span {
+	        margin: 0px 13px 0px 3px;
+}
+.contact-content .location{
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: -1;
+	height: auto;
+}
+.education{
+	margin-top: 50px;
+}
+.Professional {
+	margin-top: 50px;
+}
+.skills{
+	background: url(middle-banner.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    color: white;
+    font-size: 18px;
+    margin-top: 50px;
+}
+.skills ul{
+	list-style-type: none;
+	clear: both;
+	    margin-top: 55px;
+}
+.skills li{
+	float: left;
+	width: 22%;
+margin: 70px 13px;
+}
+.container1 {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.myprojects{
+	margin-top: 50px;
+}
+.myprojects img{
+	    width: 100%;
+}
+.myprojects h3{
+	    margin-bottom: 24px;
+    margin-left: 5px;
+}
+.ayurfy{
+	position: relative;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.7);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.ayurfy:hover .overlay {
+  height: 100%;
+}
+.waw:hover .overlay{
+	height: 100%;
+}
+.yogarok:hover .overlay{
+	height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 1.8em;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text a{
+	text-decoration: none;
+	color: white;
+}
+.text a:hover,active{
+	text-decoration: underline;
+	color: white;
+	font-size: 22px;
+}
+.langs {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 15px;
+  color: black;
+  font-size: 15px;
+  background-color: white;
+}
+.html {width: 90%;}
+.css {width: 80%;}
+.js {width: 65%;}
+.media {width: 60%;}
+/* .container1 {
+  width: 20%;
+  background-color: #ddd;
+}
+ */
+/* #myProgress {
+  width: 20%;
+  background-color: #b50742;
+}
+
+#myBar {
+  width: 10%;
+  height: 15px;
+  background-color: white;
+  text-align: center;
+  line-height: 15px;
+  color: rgba(0,0,0,0.7);
+} */
+.Professional-content {
+	position: relative !important;
+	height:180px;
+	font-size: 17px;
+}
+/* .professional-content img{
+	position: absolute !important;
+	top:0;
+	right:0;
+} */
+.Professional-content ul{
+     list-style-type: none !important;
+}
+.Professional-content li{
+	float:left !important;
+	padding: 10px;
+}
+.man{
+	position: absolute;
+	z-index: -1;
+	top:20px;
+	right:160px;
+	/* margin-top: 10px; */
+}
+.office{
+	position: absolute;
+	top: 10px;
+    right: 10px
+}
+.education{
+	position:relative;
+}
+.education-content{
+	    height: 275px;
+	font-size: 1.2em;
+}
+
+ .book  img{
+ 	position: absolute;
+ 	z-index: -1;
+    top: 20px;
+    right: 150px;
+}
+
+.graduate-cap img {
+	position: absolute;
+	top: 20px;
+    right: 35px;
+}
+.education ul{
+	list-style-type: none;
+	    padding-left: unset;
+}
+/* .education li :  execpt mth-child(1,4) {
+	margin-left: 10px;
+} */
+.education img{
+	    margin: 5px 10px 0px 0px;
+}
+.education-content span{
+	padding: 0px 55px;
+}
+
+.footer{
+	width: 100%;
+    height: auto;
+    background: url(footer-banner.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    position: relative;
+    margin-top: 50px;
+}
+.footer ul{
+	list-style-type: none;
+	color: white;
+	font-size: 20px;
+
+}
+.footer li {
+    float: left!important;
+    margin: 115px 6%;
+}
+
+	.footer img {
+    padding: 0px 30px;
+}
+
+@media screen and (max-width:414px){
+	body{
+		overflow-x: none;
+	}
+	.header{
+	background: #f7f7f7  url(banner1.png) top center no-repeat;
+background-size: cover;
+/* background-position: fixed; */
+	background-attachment: fixed;
+	width: 100%;
+	height: 736px;
+
+}
+.aboutme{
+	height:auto;
+}
+.aboutme h2{
+	line-height: 1;
+	font-size: 2.1em;
+}
+.aboutme p{
+	font-size: 1.2em;
+}
+ .col-sm-12 {
+	margin-top: 30px;
+}
+.education{
+	margin-top:30px;
+	
+}
+.education-content{
+	height: auto;
+	font-size: 1.2em;
+}
+.book img{
+	right: 0px;
+}
+.personal h3 {
+    margin-bottom: 20px;
+}
+.Professional{
+	margin-top: 30px;
+}
+.office {
+	top:0px;
+}
+.man{
+	right:0px;
+}
+.skills{
+	background: url(middle-banner1.png);
+	height: none;
+/* 	margin-top: 30px; */
+	   
+}
+.skills li {
+    float: left;
+    width: 40%;
+    margin: 40px 13px;
+    }
+    /* .skills li:nth-child(1,2) {
+    	margin-top: 10px;
+    } */
+.footer{
+	height:auto;
+	background: url(footer-banner1.png);
+	    background-repeat-y: no-repeat;
+}
+.footer li {
+    float: left!important;
+    margin: 20px 100px 0px 100px;
+    padding: 24px 0px 0px 0px;
+}
+.footer li:first-child{
+margin: 20px 100px 0px 100px;
+    padding: 29px 0px 0px 0px;
+}
+.ayurfy{
+	padding: 0px 30px;
+}
+.waw{
+	padding: 0px 30px;
+}
+.yogarok{
+	padding: 0px 30px;
+
+}
+.footer li:first-child {
+    margin: 20px 90px 0px 90px;
+    padding: 45px 0px 0px 0px;
+}
+.footer li {
+    float: left!important;
+    margin: 20px 90px 0px 90px;
+    padding: 24px 0px 0px 0px;
+}
+}

@@ -367,7 +367,7 @@ background-size: cover;
 	font-size:1.4em;
 }
 	.personal-content p{
-		font-size:1em;
+		font-size:1em!important;
 	}
 	.personal-content h3{
 		font-size:1.4em;
@@ -406,6 +406,7 @@ background-size: cover;
 	height:auto;
 	background: url(footer-banner1.png);
 	    background-repeat-y: no-repeat;
+	    background-size: cover;
 }
 .footer li {
     float: left!important;

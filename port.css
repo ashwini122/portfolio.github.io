@@ -351,7 +351,7 @@ background-size: cover;
 .education-content1{
 	display: block;
 	height: auto;
-	font-size: 1.2em;
+	font-size: 1em;
 }
 .education-content1 span{
 	padding: 0px 55px;
@@ -367,6 +367,7 @@ background-size: cover;
 	}
 .book img{
 	right: 0px;
+	width:80%;
 }
 	.personal{
 		margin-top:30px;

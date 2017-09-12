@@ -260,6 +260,9 @@ margin: 70px 13px;
 	    height: 275px;
 	font-size: 1.2em;
 }
+.education-content1{
+	display: none;
+}
 
  .book  img{
  	position: absolute;
@@ -343,10 +346,17 @@ background-size: cover;
 	
 }
 .education-content{
+	display: none;
+	}
+.education-content1{
+	display: block;
 	height: auto;
-	font-size: 1em;
+	font-size: 1.2em;
 }
-	.education-content h3{
+.education-content1 span{
+	padding: 0px 55px;
+}
+	.education-content1 h3{
 	font-size:1.4em;
 	}
 	.contact-content{

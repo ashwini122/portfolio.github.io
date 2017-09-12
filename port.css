@@ -385,13 +385,13 @@ background-size: cover;
     float: left!important;
     width:100%;
     margin:unset;
-    padding: 20px 25%;	
+    padding: 20px 25%!important;	
 }
 .footer li:first-child{
 width:100%;
 margin:unset;
 font-size:1em;
-padding: 70px 25% 20px 25%;	
+padding: 70px 25% 20px 25%!important;	
 }
 .ayurfy{
 	padding: 0px 30px;

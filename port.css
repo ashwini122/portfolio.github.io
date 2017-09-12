@@ -403,13 +403,4 @@ padding: 70px 25% 20px 25%;
 	padding: 0px 30px;
 
 }
-.footer li:first-child {
-    margin: 20px 90px 0px 90px;
-    padding: 45px 0px 0px 0px;
-}
-.footer li {
-    float: left!important;
-    margin: 20px 90px 0px 90px;
-    padding: 24px 0px 0px 0px;
-}
 }
